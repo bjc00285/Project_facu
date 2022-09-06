@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0 ;
+    font-size: 15px;
+    font-family:'Courier New', Courier, monospace; 
+}
+header {
+    display: flex;
+    width: 100%;
+    height: 200px; 
+    background-color: black;
+    justify-content: center ;
+    align-items: center;
+}
+ .galaxia-img{
+    width: 100%;
+    height: 200px;
+}
+.galaxia-p{
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-family: cursive;
+    position: absolute;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%; 
+    background-color: black;
+
+}
+h2{
+    color: white;
+    font-size: 40px;
+    font-family: cursive;
+    text-align: center;
+}
+h4{
+    color: darkred;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+
+}
+.Pelicula{
+    width: 500px;
+    height: 400px;
+    margin-left: 50
+px;
+    margin: auto;
+}
+p{
+color: white;
+font-size: 20px;
+font-family: cursive;
+margin: 20px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    height: 20px;
+    width: 100%;
+    align-items: center;
+}
+h3{
+    margin-right: 50px;
+}
+.div-al{
+    margin-left: 20px;
+    font-size: 20px;  
+    font-family: cursive;
+}
